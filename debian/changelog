@@ -1,0 +1,5 @@
+arduino-ethershield (1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Olivier Mehani <shtrom-debian@ssji.net>  Sun, 10 Feb 2013 23:17:09 +1100

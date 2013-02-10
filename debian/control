@@ -1,0 +1,19 @@
+Source: arduino-ethershield
+Priority: extra
+Maintainer: Olivier Mehani <shtrom-debian@ssji.net>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Section: libs
+Homepage: https://github.com/jonoxer/etherShield
+#Vcs-Git: git://git.debian.org/collab-maint/arduino-ethershield.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/arduino-ethershield.git;a=summary
+
+Package: arduino-ethershield
+Section: libs
+Architecture: all
+Depends: arduino-core (>=1.0)
+Description: TCP/IP Library for ENC28J69-based Arduino EtherShield
+ This library provides Arduino support for the EtherShield from nuelectronics
+ as well as other boards based on the same design (Seeed Studios Ethernet
+ Adaptor, EKitsZone, ...). The library is based on tuxgraphics.org's TCP/IP
+ stack for the Atmega88 and ENC28J60.
